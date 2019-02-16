@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
 </head>
 
@@ -13,72 +24,112 @@
     <a href="wwww.musicsite.com"></a>
 </div>
 
-<div>
+<div class="container">
     <img src="img/lanistaeLogo.png"/>
 </div>
 
-<nav class="nav">
-    <ul>
-        <li>
-            <a  active><b>HOME</b></a>
+<nav>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#"><b>HOME</b></a>
         </li>
-        <li>
-            <a><b>LINK 2</b></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 2</b></a>
         </li>
-        <li>
-            <a><b>LINK 3</b></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 3</b></a>
         </li>
-        <li>
-            <a><b>LINK 4</b></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 4</b></a>
         </li>
-        <li>
-            <a><b>LINK 5</b></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 5</b></a>
         </li>
-        <li>
-            <a><b>LINK 6</b></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 6</b></a>
         </li>
-        <li>
-            <a><b>LINK 7</b></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 7</b></a>
         </li>
     </ul>
 </nav>
 
-<div id="menu-left">
-    <div class="news">
+<nav>
+    <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="#"><b>HOME</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 2</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 3</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 4</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 5</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 6</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>LINK 7</b></a>
+        </li>
+    </ul>
+</nav>
+
+<img src="..." class="img-fluid" alt="Responsive image">
+
+<div id="menu-left" class="container">
+    <div class="news container">
 
         <h3>News</h3>
 
-        <h4><a class="newslink" href="#">Noticia 1</a></h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum varius arcu. Donec tristique facilisis maximus. Vivamus in fringilla sapien.
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
 
     </div>
-    <div class="news">
+    <div class="news container">
 
-
-
-        <h4><a class="newslink" href="#">Noticia 2</a></h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum varius arcu. Donec tristique facilisis maximus. Vivamus in fringilla sapien.
+        <h3>News</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
 
     </div>
-    <div class="news">
+    <div class="news container">
 
-
-
-        <h4><a class="newslink" href="#">Noticia 3</a></h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum varius arcu. Donec tristique facilisis maximus. Vivamus in fringilla sapien.
-
+        <h3>News</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
     </div>
 </div>
 
 
-<aside class="aside">
+<aside class="aside container">
     <img src="images/foto-1.png" class="asideBox">
     <img src="images/foto-2.png" class="asideBox">
     <img src="images/foto-3.png" class="asideBox">
 </aside>
 
 
-<div class="footer">
+<div class="footer container">
     <img class="icon" src="images/icons/icon-facebook.jpg">
     <img class="icon" src="images/icons/icon-googleplus.jpg">
     <img class="icon" src="images/icons/icon-pinterest.jpg">
